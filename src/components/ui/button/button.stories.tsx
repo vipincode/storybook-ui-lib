@@ -11,6 +11,14 @@ const meta: Meta<typeof Button> = {
     size: 'medium',
   },
   argTypes: {
+    children: {
+      name: 'Label',
+      control: 'text',
+      description: 'Text to display on the button',
+      // table: {
+      //   disable: true,
+      // },
+    },
     disabled: {
       control: 'boolean',
     },
@@ -19,6 +27,7 @@ const meta: Meta<typeof Button> = {
     },
     size: {
       control: 'select',
+      options: ['small', 'medium', 'large'],
     },
   },
 };
