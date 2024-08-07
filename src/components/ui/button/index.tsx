@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react';
-import { variants, type ButtonVariants } from './button-variant';
+import { variants, type ButtonVariants } from './button-variants';
 
 type ButtonProps = ComponentProps<'button'> & ButtonVariants;
 
