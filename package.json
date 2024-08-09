@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006 public",
     "build-storybook": "storybook build public",
-    "serve-storybook": "serve storybook-static"
+    "serve-storybook": "npx serve ./.storybook"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
