@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build public"
+    "build-storybook": "storybook build storybook-static"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",

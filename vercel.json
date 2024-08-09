@@ -2,13 +2,13 @@
   "rewrites": [
     {
       "source": "/storybook/:path*",
-      "destination": "/public/storybook/:path*"
+      "destination": "/storybook-static/:path*"
     }
   ],
   "redirects": [
     {
       "source": "/",
-      "destination": "/storybook/index.html",
+      "destination": "/storybook-static/index.html",
       "permanent": false
     }
   ]
