@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss';
-import { black, colors, currentColor, transparent, white } from './src/tokens/colors';
+import { black, colors, transparent, white } from './src/tokens/colors';
 
 const config: Config = {
   content: [
@@ -12,7 +12,6 @@ const config: Config = {
     colors: {
       ...colors,
       black,
-      currentColor,
       transparent,
       white,
     },

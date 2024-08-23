@@ -1,0 +1,33 @@
+import { Meta, Title, Primary, Stories, Controls } from '@storybook/blocks';
+import CardStories from './card.stories';
+import CardTitle from './card-title.stories';
+import cardContent from './card-content.stories';
+import CardDescription from './card-description.stories';
+import CardFooter from './card-footer.stories';
+import CardHeader from './card-header.stories';
+
+<Title>Card</Title>
+## Using JSX
+
+```js
+<Card>
+  <CardHeader>Header content</CardHeader>
+  <CardContent>
+    <CardTitle>Tour Title</CardTitle>
+    <CardDescription>Description</CardDescription>
+  </CardContent>
+  <CardFooter>Footer</CardFooter>
+</Card>
+```
+
+<Meta of={CardStories} />{' '}
+
+(Here you all detail about card and its component)
+
+<Primary />
+
+<Controls />
+
+## Other Variations
+
+<Stories />

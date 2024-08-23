@@ -1,7 +1,5 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 
-export type ButtonVariants = VariantProps<typeof variants>;
-
 export const variants = cva(
   [
     'font-semibold',
@@ -51,3 +49,4 @@ export const variants = cva(
     },
   },
 );
+export type ButtonVariants = VariantProps<typeof variants>;

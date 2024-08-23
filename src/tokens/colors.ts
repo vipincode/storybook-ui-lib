@@ -108,4 +108,3 @@ export const colors = {
 export const white = '#ffffff';
 export const black = '#010209';
 export const transparent = 'transparent';
-export const currentColor = 'currentColor';

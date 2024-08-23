@@ -30,6 +30,12 @@ const meta: Meta<typeof Button> = {
       options: ['small', 'medium', 'large'],
     },
   },
+  // parameters: {
+  //   design: {
+  //     type: 'figma',
+  //     url: 'https://www.figma.com/design/UO6JBisA4dO6dUCNj3QQqT/storybook-01?node-id=3-16&t=DYxICUghNt5CIW8S-4',
+  //   },
+  // },
 };
 
 export default meta;
@@ -40,16 +46,34 @@ export const Primary: Story = {
   args: {
     variant: 'primary',
   },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/UO6JBisA4dO6dUCNj3QQqT/storybook-01?node-id=3-16&t=DYxICUghNt5CIW8S-4',
+    },
+  },
 };
 
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
   },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/UO6JBisA4dO6dUCNj3QQqT/storybook-01?node-id=3-25&t=DYxICUghNt5CIW8S-4',
+    },
+  },
 };
 export const Destructive: Story = {
   args: {
     variant: 'destructive',
+  },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/UO6JBisA4dO6dUCNj3QQqT/storybook-01?node-id=3-32&t=DYxICUghNt5CIW8S-4',
+    },
   },
 };
 export const Small: Story = {
